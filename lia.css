@@ -1,0 +1,57 @@
+body{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 15px 15px;
+    font-family: Times New Roman
+}
+#menu{
+	background: pink;
+}
+ 
+#menu ul{
+	padding: 0;
+	margin: 5;
+	background: pink;
+	overflow: hidden;
+}
+ 
+#menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+	.kotak{
+		width: 100%;
+		padding: 0px;
+		border: none;
+	}
+	
+	.kiri{
+		width: 100%;
+	}
+ 
+	.kanan{
+		width: 100%;
+		padding: 0;
+	}
+}
+.text{
+width: 400x;
+height: 400px;
+border: 3px solid #FFC0CB;
+background: #E6E6FA;
+border-radius: 10%;
+margin: auto;
+padding: 15px 10px;
+}
+.foto{
+  width: 300px;
+  height: 400px;
+  border: 3px solid #B0E0E6;
+  background: pink;
+  border-radius: 50%;
+  margin: auto;
+  padding: 15px 10px;
+}
